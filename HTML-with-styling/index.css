@@ -1,0 +1,16 @@
+.external{
+    color: black;
+    background-color: rgb(227, 120, 81);
+    margin-bottom: 0%;
+}
+
+#idSelector{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+ol{
+    list-style-type: circle;
+}
+/* *{
+    background-color: chartreuse;
+} */
