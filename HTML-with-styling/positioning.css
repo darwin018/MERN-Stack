@@ -1,0 +1,27 @@
+.relative-pos{
+    background-color:palegreen;
+    position:relative;
+    margin: 100px;
+    z-index: 3;
+}
+.div-pos{
+    position: relative;
+    margin: 100px;
+    border: 2px solid palegreen;
+    height: 500px;
+    width: 500px;
+}
+.abs-pos{
+    position:absolute;
+    top: 50px;
+    left: 50px;
+}
+.fixed-pos{
+    position:fixed;
+    top: 10px;
+    
+}
+.sticky-pos{
+    position: sticky;
+    top: 10px;
+}
