@@ -7,7 +7,7 @@ h1{
 .container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    background-color: #79D7BE;
+    background-color: #2E5077;
     padding: 10px;
     border-radius: 10px;
 }
@@ -15,7 +15,7 @@ h1{
     background-color: #2E5077;
     color: aliceblue;
     justify-content: center;
-    
+    border: 2px solid white;
     text-align: center;
     margin: 5px;
     height: 500px;
