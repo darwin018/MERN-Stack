@@ -1,0 +1,23 @@
+nav{
+    display: flex;
+    
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color:#4B164C;
+}
+.link{
+    text-decoration: none;
+    color:white;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 4px;
+}
+.link:hover{
+    color:#4B164C;
+    background-color:white;
+    border-radius: 13px;
+    
+}

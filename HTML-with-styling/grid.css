@@ -1,0 +1,30 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-weight: 150;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: #79D7BE;
+    padding: 10px;
+    border-radius: 10px;
+}
+.grid-items{
+    background-color: #2E5077;
+    color: aliceblue;
+    justify-content: center;
+    
+    text-align: center;
+    margin: 5px;
+    height: 500px;
+    border-radius: 30px;
+}
+div img{
+    height: 80%;
+    width: 100%;
+    
+    object-fit: cover;
+    border-radius: 30px;
+}

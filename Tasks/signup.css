@@ -4,11 +4,14 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     justify-content: center;
-    /* background-color: rgba(152, 251, 152, 0.827); */
+    background-image:url(pexels-elijahsad-3473569.jpg);
+    background-size: 100% 100%;
+
 }
 .signup-container {
     
     margin: 100px;
+    
     background: white;
     padding: 30px;
     padding-right: 50px;
