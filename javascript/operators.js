@@ -16,5 +16,17 @@
 // Relational operator
 console.log(5=='5')
 console.log(5==='5')
-console.log()
+
+// 
+
+
+// LSO
+console.log(55<<3)
+console.log(128<<1)
+
+// RSO
+
+console.log(55>>3)
+console.log(1>>1)
+console.log(8>>3)
 
