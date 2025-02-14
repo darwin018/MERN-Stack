@@ -15,8 +15,7 @@ nav ul li{
 nav ul li a {
     text-decoration: none;
     color: white;
-    font-size: 2em;
-    font-size: 16px;
+    font-size: 20px;
     padding: 10px 15px;
     display: block;
     transition: 0.3s;
@@ -31,7 +30,7 @@ nav ul li a:hover{
 .dropdown-menu{
     display: none;
     position: absolute;
-    top: 140%;
+    top: 100%;
     left: 0;
     background-color:#4B164C;
     min-width: 150px;
@@ -46,7 +45,8 @@ nav ul li a:hover{
     text-decoration: none;
 }
 .dropdown-menu li a:hover{
-    background-color:#4B164C;
+    color:#4B164C;
+    background-color: white;
 }
 .dropdown:hover .dropdown-menu{
     display: block;
