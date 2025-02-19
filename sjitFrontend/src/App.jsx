@@ -11,6 +11,7 @@ import Navbar from './components/functionalComponents/Navbar.jsx'
 
 import UseEffect from './components/functionalComponents/Hooks/UseEffect.jsx'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
+import Signup from './components/functionalComponents/Signup.jsx'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -26,6 +27,7 @@ function App() {
           <Route path='/Contact' element = {<Contact/>}></Route>
           <Route path='/use-Effect' element = {<UseEffect/>}></Route>
           <Route path='/Gallery' element = {<Gallery/>}></Route>
+          <Route path='/Signup' element = {<Signup/>}></Route>
         </Routes>
       </BrowserRouter>
       
