@@ -1,4 +1,5 @@
 import '../css/signup.css'
+import { Link } from 'react-router-dom'
 
 const Signup = ()=>{
     return(
@@ -50,7 +51,9 @@ const Signup = ()=>{
 
             <button type="submit">Sign Up</button>
         </form>
+        <p>Already have an account? <Link to='/Login'>Log in</Link></p>
         </div>
+        
     )
 }
 export default Signup

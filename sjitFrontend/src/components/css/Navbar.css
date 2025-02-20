@@ -44,10 +44,10 @@ a:hover{
     display: block;
     text-decoration: none;
 }
-.dropdown-menu li a:hover{
+/* .dropdown-menu li a:hover{
     color:#493D9E;
     background-color: white;
-}
+} */
 .dropdown:hover .dropdown-menu{
     display: block;
 }
