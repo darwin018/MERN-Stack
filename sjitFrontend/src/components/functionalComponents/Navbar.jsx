@@ -26,6 +26,8 @@ const Navbar = () =>{
                 </li>
                 </div>
                 <li><Link to='/HoC'>HoC</Link></li>
+                <li><Link to='/Memo'>Memo</Link></li>
+                <li><Link to='/LazyLoadingAndSuspense'>Lazy</Link></li>
                 <li><Link to='/Contact'>Contact</Link></li>
                 <li><Link to='/Signup'>Sign-Up</Link></li>
                 </ul>

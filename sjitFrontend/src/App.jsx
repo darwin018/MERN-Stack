@@ -19,6 +19,8 @@ import UseMemo from './components/functionalComponents/Hooks/UseMemo.jsx'
 import UseCallback from './components/functionalComponents/Hooks/UseCallback.jsx'
 import UseMemoize from './components/functionalComponents/Hooks/UseMemoize.jsx'
 import Hoc from './components/functionalComponents/HoC/Hoc.jsx'
+import Memo from './components/functionalComponents/memoization/Memo.jsx'
+import LazyLoadingAndSuspense from './components/functionalComponents/memoization/LazyLoadingAndSuspense.jsx'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -42,6 +44,8 @@ function App() {
           <Route path='/UseCallback' element = {<UseCallback/>}></Route>
           <Route path='/UseMemoize' element = {<UseMemoize/>}></Route>
           <Route path='/Hoc' element = {<Hoc/>}></Route>
+          <Route path='/Memo' element = {<Memo/>}></Route>
+          <Route path='/LazyLoadingAndSuspense' element = {<LazyLoadingAndSuspense/>}></Route>
         </Routes>
       </BrowserRouter>
       
