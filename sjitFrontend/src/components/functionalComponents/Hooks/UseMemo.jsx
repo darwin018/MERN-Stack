@@ -8,12 +8,15 @@ const UseMemo = () => {
     var [theme,setTheme] = useState(false);
     var styling = {
         backgroundColor : theme ? "#493D9E" : "#B2A5FF",
-        color : theme? "#B2A5FF" :"#493D9E"
+        color : theme? "#B2A5FF" :"#493D9E",
     }
-    var slowFunctio = (num)=>{
-        for(var i=0;i<10000000;i++){}
+    var slowFunction = (num)=>{
+        for(var i=0;i<100000000;i++){}
         return num*2
     }
+    var doublingUpANumber = useMemo(()=>{
+        return slowFunction(number)
+    },[number])
     return (
         <>
         <button onClick={()=>setTheme(!theme)}>Toggle Theme</button>
@@ -26,7 +29,7 @@ const UseMemo = () => {
             onChange={(e) => setNumber(e.target.value)}
         />
         <h2>The number is : {number}</h2>
-        <h2>The number is : {slowFunctio(number)}</h2>
+        <h2>The number is : {doublingUpANumber}</h2>
         </div>
         </>
     );
