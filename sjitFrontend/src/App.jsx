@@ -16,6 +16,9 @@ import Login from './components/functionalComponents/Login.jsx'
 import UseEffectApi from './components/functionalComponents/Hooks/UseEffectApi.jsx'
 import UseRef from './components/functionalComponents/Hooks/UseRef.jsx'
 import UseMemo from './components/functionalComponents/Hooks/UseMemo.jsx'
+import UseCallback from './components/functionalComponents/Hooks/UseCallback.jsx'
+import UseMemoize from './components/functionalComponents/Hooks/UseMemoize.jsx'
+import Hoc from './components/functionalComponents/HoC/Hoc.jsx'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -36,6 +39,9 @@ function App() {
           <Route path='/UseEffectApi' element = {<UseEffectApi/>}></Route>
           <Route path='/UseRef' element = {<UseRef/>}></Route>
           <Route path='/UseMemo' element = {<UseMemo/>}></Route>
+          <Route path='/UseCallback' element = {<UseCallback/>}></Route>
+          <Route path='/UseMemoize' element = {<UseMemoize/>}></Route>
+          <Route path='/Hoc' element = {<Hoc/>}></Route>
         </Routes>
       </BrowserRouter>
       

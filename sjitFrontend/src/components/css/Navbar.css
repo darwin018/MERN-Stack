@@ -32,13 +32,14 @@ a:hover{
     background-color: #493D9E;
     padding: 20px;
     /* top: 100%; */
-    /* left: 0; */
-    min-width: 150px;
+    left: 0;
+    /* min-width: 150px; */
     border-radius: 5px;
+    width: 400%;
 }
 .dropdown-menu li{
     display: block;
-    width: 100%;
+    /* width: 100%; */
 }
 .dropdown-menu li a{
     display: block;

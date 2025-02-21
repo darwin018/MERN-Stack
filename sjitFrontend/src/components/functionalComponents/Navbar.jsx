@@ -20,9 +20,12 @@ const Navbar = () =>{
                     <li><Link to='/useEffectApi'>Use Effect API</Link></li>
                     <li><Link to='/useRef'>Use Ref</Link></li>
                     <li><Link to='/useMemo'>Use Memo</Link></li>
+                    <li><Link to='/useCallback'>Use Callback</Link></li>
+                    <li><Link to='/useMemoize'>Use Memoize CustomHook</Link></li>
                 </ul>)}
                 </li>
                 </div>
+                <li><Link to='/HoC'>HoC</Link></li>
                 <li><Link to='/Contact'>Contact</Link></li>
                 <li><Link to='/Signup'>Sign-Up</Link></li>
                 </ul>

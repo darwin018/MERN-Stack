@@ -37,7 +37,7 @@ label {
     margin-bottom: 15px;
 }
 input{
-    width: 100%;
+    /* width: 100%; */
     padding: 8px;
     border: 1px solid black;
     border-radius: 5px;
@@ -48,7 +48,7 @@ input{
     margin-top: 5px;
 }
 button{
-    width: 30%;
+    /* width: 30%; */
     padding: 10px;
     font-weight: bold;
     color: black;
@@ -57,5 +57,5 @@ button{
     border-radius: 10px;
 }
 button:hover{
-    background-color: palegreen;
+    /* background-color: palegreen; */
 }
