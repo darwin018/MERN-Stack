@@ -21,6 +21,8 @@ import UseMemoize from './components/functionalComponents/Hooks/UseMemoize.jsx'
 import Hoc from './components/functionalComponents/HoC/Hoc.jsx'
 import Memo from './components/functionalComponents/memoization/Memo.jsx'
 import LazyLoadingAndSuspense from './components/functionalComponents/memoization/LazyLoadingAndSuspense.jsx'
+import CoE from './components/functionalComponents/CoE.jsx'
+// import StudentResults from './components/functionalComponents/ContextAPI/StudentResults.jsx'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -46,6 +48,7 @@ function App() {
           <Route path='/Hoc' element = {<Hoc/>}></Route>
           <Route path='/Memo' element = {<Memo/>}></Route>
           <Route path='/LazyLoadingAndSuspense' element = {<LazyLoadingAndSuspense/>}></Route>
+          <Route path='/res' element = {<CoE />}></Route>
         </Routes>
       </BrowserRouter>
       
