@@ -1,7 +1,19 @@
 import '../css/signup.css'
 import { Link } from 'react-router-dom'
-
+import axios from 'axios'
 const Signup = ()=>{
+
+    const handleSignup = ()=> {
+        axios.post("http://localhost:3001/signup",{
+            firstName:firstName,
+            lastName:lastName,
+            email:email,
+            password:password,
+            phoneNumber:phoneNumber
+        })
+    }
+    
+    
     return(
         <div className="signup-container">
         <form>
@@ -25,29 +37,16 @@ const Signup = ()=>{
                 <input type="password" placeholder="Enter your password" required />
             </div>
 
-            <div className="input-group">
-                <label>Confirm Password</label>
-                <input type="password" placeholder="Confirm your password" required />
-            </div>
+            
 
-            <div className="input-group">
-                <label>Date of Birth</label>
-                <input type="date" required />
-            </div>
+            
 
             <div className="input-group">
                 <label>Mobile Number</label>
                 <input type="tel" placeholder="Enter your mobile number" required />
             </div>
 
-            <div className="input-group">
-                <label>Gender</label>
-                <div className="gender-options">
-                    <input type="radio" name="gender" required /> Male
-                    <input type="radio" name="gender" required /> Female
-                    <input type="radio" name="gender" required /> Other
-                </div>
-            </div>
+           
 
             <button type="submit">Sign Up</button>
         </form>
